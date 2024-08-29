@@ -46,7 +46,7 @@ const Home = () => {
 						<div className="row">
 						<Welcome></Welcome>
 						</div>	
-						<div className="row d-flex justify-content-center">
+						<div className="row d-flex justify-content-center">	
 						{cardcollections.map((card) => (
 						<Cards title={card.title} cardText={card.cardText} imgUrl={card.imgUrl} buttomUrl={card.buttomUrl} buttomLabel={card.buttomLabel}/>
 						))}	
