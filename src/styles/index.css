@@ -1,6 +1,8 @@
 .jumbotron{
     margin-top: 40px;
     padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: antiquewhite;
 }
 .row{
@@ -10,4 +12,10 @@
     background-color: black;
     color: white;
     padding: 5px;
+}
+p{
+    text-align: justify;
+}
+.col-sm-12,.col-md-6{
+    margin-top: 10px;
 }
