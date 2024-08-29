@@ -1,12 +1,13 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.jumbotron{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    background-color: antiquewhite;
+}
+.row{
+    margin-bottom: 40px;
+}
+#footer, h6{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
