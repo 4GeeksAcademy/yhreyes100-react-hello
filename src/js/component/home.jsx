@@ -46,14 +46,16 @@ const Home = () => {
 						<div className="row">
 						<Welcome></Welcome>
 						</div>	
-						<div className="row justify-content-center">
+						<div className="row d-flex justify-content-center">
 						{cardcollections.map((card) => (
 						<Cards title={card.title} cardText={card.cardText} imgUrl={card.imgUrl} buttomUrl={card.buttomUrl} buttomLabel={card.buttomLabel}/>
 						))}	
 						</div>
 						</div>
 						</div>
-						<div id="footer" className=".footer d-grid justify-content-center "><h6>CopyRight @ Your Web Site</h6></div>
+						<div className="container-fluid">
+						<div id="footer" className=".footer  d-grid justify-content-center bg-secondary"><h6>CopyRight @ Your Web Site</h6></div>
+						</div>
 				</>			
 )};
 

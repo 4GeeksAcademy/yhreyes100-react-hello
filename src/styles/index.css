@@ -9,7 +9,7 @@
     margin-bottom: 40px;
 }
 #footer, h6{
-    background-color: black;
+   /* background-color: black;*/
     color: white;
     padding: 5px;
 }
@@ -17,5 +17,6 @@ p{
     text-align: justify;
 }
 .col-sm-12,.col-md-6{
+    text-align: center;
     margin-top: 10px;
 }
